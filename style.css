@@ -4,6 +4,15 @@ body{
 }
 .colour{
     color: #FFA500;
+   
+}
+.button{
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    background-image: linear-gradient(darkorange, orange);
+    text-decoration: none;
 }
 .header{
     display: flex;
@@ -27,27 +36,29 @@ body{
 .topper-left h3{
     font-weight: 700;
 }
-.topper-left p{
-    font-weight: lighter;
-}
-
-
 .dream-left{
     width: 47%;
-    padding-right: 85px;
+    padding-right: 100px;
 }
 .dream-left img{
     width: 100%;
 }
 .dream-right{
     width: 47%;
-    padding-right:85px ;
+    padding-right:20px ;
+    padding-left: 50px;
+}
+.dream-right h1{
+    font-size: 55px;
 }
 .dream{
     display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    padding: 150px 0 0 85px;
-
-    
+    background-position: right;
+    background-position-y: 320px;
+    padding: 150px 100px 0 85px;   
+}
+.dream-right h3{
+    font-weight: 700;
 }
