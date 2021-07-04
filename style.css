@@ -1,3 +1,32 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.colour{
+    color: #FFA500;
+}
+.header{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    padding:40px 2px 0 90px;
+    
+}
+.topper-left{
+    width: 47%;
+}
+.topper-right{
+    width: 47%;
+}
+.topper-right img{
+   width: 140%;
+}
+.header h1{
+    font-size: 55px;
+}
+.topper-left h3{
+    font-weight: 700;
+}
+.topper-left p{
+    font-weight: lighter;
 }
